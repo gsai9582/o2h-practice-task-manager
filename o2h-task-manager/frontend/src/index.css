@@ -1,0 +1,21 @@
+:root{
+  --app-bg: #f8f9fa;
+  --app-fg: #212529;
+  --card-bg: #ffffff;
+}
+
+[data-theme='dark']{
+  --app-bg: #0f172a;
+  --app-fg: #e5e7eb;
+  --card-bg: #111827;
+}
+
+body{
+  background: var(--app-bg);
+  color: var(--app-fg);
+}
+
+.card{
+  background: var(--card-bg);
+}
+
